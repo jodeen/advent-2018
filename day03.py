@@ -43,4 +43,4 @@ with open('day03.txt', 'r') as data:
         tuples = itertools.product(range(start[0], start[0] + size[0]),
                                    range(start[1], start[1] + size[1]))
         if len(twice.intersection(set(tuples))) == 0:
-            print id
+            print(id)
